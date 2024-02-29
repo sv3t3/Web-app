@@ -1,5 +1,8 @@
+#kinde.com
 from kinde_sdk.kinde_api_client import GrantType
 
+SQLALCHEMY_DATABASE_URI = 'sqlite:///users.db'
+SQLALCHEMY_TRACK_MODIFICATIONS = False
 
 SITE_HOST = "localhost"
 SITE_PORT = "5000"
